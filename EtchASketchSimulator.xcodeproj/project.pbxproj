@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		704D4FB719C7BD1600C80B75 /* mona_lisa.pgm in Resources */ = {isa = PBXBuildFile; fileRef = 704D4FB619C7BD1600C80B75 /* mona_lisa.pgm */; };
+		704D4FB919C7BDB900C80B75 /* lena.pgm in Resources */ = {isa = PBXBuildFile; fileRef = 704D4FB819C7BDB900C80B75 /* lena.pgm */; };
+		70D66CA519C7B3B7006D6ABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D66CA419C7B3B7006D6ABE /* Foundation.framework */; };
+		70D66CA719C7B3B7006D6ABE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D66CA619C7B3B7006D6ABE /* CoreGraphics.framework */; };
+		70D66CA919C7B3B7006D6ABE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D66CA819C7B3B7006D6ABE /* UIKit.framework */; };
+		70D66CAF19C7B3B7006D6ABE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70D66CAD19C7B3B7006D6ABE /* InfoPlist.strings */; };
+		70D66CB119C7B3B7006D6ABE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D66CB019C7B3B7006D6ABE /* main.m */; };
+		70D66CB519C7B3B7006D6ABE /* BCCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D66CB419C7B3B7006D6ABE /* BCCAppDelegate.m */; };
+		70D66CB819C7B3B7006D6ABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D66CB619C7B3B7006D6ABE /* Main.storyboard */; };
+		70D66CBB19C7B3B7006D6ABE /* BCCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D66CBA19C7B3B7006D6ABE /* BCCViewController.m */; };
+		70D66CBD19C7B3B7006D6ABE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70D66CBC19C7B3B7006D6ABE /* Images.xcassets */; };
+		70D66CC419C7B3B7006D6ABE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D66CC319C7B3B7006D6ABE /* XCTest.framework */; };
+		70D66CC519C7B3B7006D6ABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D66CA419C7B3B7006D6ABE /* Foundation.framework */; };
+		70D66CC619C7B3B7006D6ABE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D66CA819C7B3B7006D6ABE /* UIKit.framework */; };
+		70D66CCE19C7B3B7006D6ABE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70D66CCC19C7B3B7006D6ABE /* InfoPlist.strings */; };
+		70D66CD019C7B3B7006D6ABE /* EtchASketchSimulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D66CCF19C7B3B7006D6ABE /* EtchASketchSimulatorTests.m */; };
+		70D66CDF19C7B3E2006D6ABE /* fast-edge.c in Sources */ = {isa = PBXBuildFile; fileRef = 70D66CDA19C7B3E2006D6ABE /* fast-edge.c */; };
+		70D66CE019C7B3E2006D6ABE /* imageio.c in Sources */ = {isa = PBXBuildFile; fileRef = 70D66CDC19C7B3E2006D6ABE /* imageio.c */; };
+		70D66CE219C7B4FC006D6ABE /* dogtest.pgm in Resources */ = {isa = PBXBuildFile; fileRef = 70D66CE119C7B4FC006D6ABE /* dogtest.pgm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70D66CC719C7B3B7006D6ABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70D66C9919C7B3B7006D6ABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70D66CA019C7B3B7006D6ABE;
+			remoteInfo = EtchASketchSimulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		704D4FB619C7BD1600C80B75 /* mona_lisa.pgm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mona_lisa.pgm; sourceTree = "<group>"; };
+		704D4FB819C7BDB900C80B75 /* lena.pgm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lena.pgm; sourceTree = "<group>"; };
+		70D66CA119C7B3B7006D6ABE /* EtchASketchSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtchASketchSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D66CA419C7B3B7006D6ABE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		70D66CA619C7B3B7006D6ABE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		70D66CA819C7B3B7006D6ABE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		70D66CAC19C7B3B7006D6ABE /* EtchASketchSimulator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EtchASketchSimulator-Info.plist"; sourceTree = "<group>"; };
+		70D66CAE19C7B3B7006D6ABE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70D66CB019C7B3B7006D6ABE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70D66CB219C7B3B7006D6ABE /* EtchASketchSimulator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EtchASketchSimulator-Prefix.pch"; sourceTree = "<group>"; };
+		70D66CB319C7B3B7006D6ABE /* BCCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCCAppDelegate.h; sourceTree = "<group>"; };
+		70D66CB419C7B3B7006D6ABE /* BCCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCCAppDelegate.m; sourceTree = "<group>"; };
+		70D66CB719C7B3B7006D6ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70D66CB919C7B3B7006D6ABE /* BCCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCCViewController.h; sourceTree = "<group>"; };
+		70D66CBA19C7B3B7006D6ABE /* BCCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCCViewController.m; sourceTree = "<group>"; };
+		70D66CBC19C7B3B7006D6ABE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		70D66CC219C7B3B7006D6ABE /* EtchASketchSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtchASketchSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D66CC319C7B3B7006D6ABE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		70D66CCB19C7B3B7006D6ABE /* EtchASketchSimulatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EtchASketchSimulatorTests-Info.plist"; sourceTree = "<group>"; };
+		70D66CCD19C7B3B7006D6ABE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70D66CCF19C7B3B7006D6ABE /* EtchASketchSimulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EtchASketchSimulatorTests.m; sourceTree = "<group>"; };
+		70D66CDA19C7B3E2006D6ABE /* fast-edge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "fast-edge.c"; sourceTree = "<group>"; };
+		70D66CDB19C7B3E2006D6ABE /* fast-edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "fast-edge.h"; sourceTree = "<group>"; };
+		70D66CDC19C7B3E2006D6ABE /* imageio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = imageio.c; sourceTree = "<group>"; };
+		70D66CDD19C7B3E2006D6ABE /* imageio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageio.h; sourceTree = "<group>"; };
+		70D66CE119C7B4FC006D6ABE /* dogtest.pgm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dogtest.pgm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70D66C9E19C7B3B7006D6ABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D66CA719C7B3B7006D6ABE /* CoreGraphics.framework in Frameworks */,
+				70D66CA919C7B3B7006D6ABE /* UIKit.framework in Frameworks */,
+				70D66CA519C7B3B7006D6ABE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D66CBF19C7B3B7006D6ABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D66CC419C7B3B7006D6ABE /* XCTest.framework in Frameworks */,
+				70D66CC619C7B3B7006D6ABE /* UIKit.framework in Frameworks */,
+				70D66CC519C7B3B7006D6ABE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70D66C9819C7B3B7006D6ABE = {
+			isa = PBXGroup;
+			children = (
+				70D66CAA19C7B3B7006D6ABE /* EtchASketchSimulator */,
+				70D66CC919C7B3B7006D6ABE /* EtchASketchSimulatorTests */,
+				70D66CA319C7B3B7006D6ABE /* Frameworks */,
+				70D66CA219C7B3B7006D6ABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70D66CA219C7B3B7006D6ABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70D66CA119C7B3B7006D6ABE /* EtchASketchSimulator.app */,
+				70D66CC219C7B3B7006D6ABE /* EtchASketchSimulatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70D66CA319C7B3B7006D6ABE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70D66CA419C7B3B7006D6ABE /* Foundation.framework */,
+				70D66CA619C7B3B7006D6ABE /* CoreGraphics.framework */,
+				70D66CA819C7B3B7006D6ABE /* UIKit.framework */,
+				70D66CC319C7B3B7006D6ABE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70D66CAA19C7B3B7006D6ABE /* EtchASketchSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				704D4FB819C7BDB900C80B75 /* lena.pgm */,
+				704D4FB619C7BD1600C80B75 /* mona_lisa.pgm */,
+				70D66CE119C7B4FC006D6ABE /* dogtest.pgm */,
+				70D66CDA19C7B3E2006D6ABE /* fast-edge.c */,
+				70D66CDB19C7B3E2006D6ABE /* fast-edge.h */,
+				70D66CDC19C7B3E2006D6ABE /* imageio.c */,
+				70D66CDD19C7B3E2006D6ABE /* imageio.h */,
+				70D66CB319C7B3B7006D6ABE /* BCCAppDelegate.h */,
+				70D66CB419C7B3B7006D6ABE /* BCCAppDelegate.m */,
+				70D66CB619C7B3B7006D6ABE /* Main.storyboard */,
+				70D66CB919C7B3B7006D6ABE /* BCCViewController.h */,
+				70D66CBA19C7B3B7006D6ABE /* BCCViewController.m */,
+				70D66CBC19C7B3B7006D6ABE /* Images.xcassets */,
+				70D66CAB19C7B3B7006D6ABE /* Supporting Files */,
+			);
+			path = EtchASketchSimulator;
+			sourceTree = "<group>";
+		};
+		70D66CAB19C7B3B7006D6ABE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70D66CAC19C7B3B7006D6ABE /* EtchASketchSimulator-Info.plist */,
+				70D66CAD19C7B3B7006D6ABE /* InfoPlist.strings */,
+				70D66CB019C7B3B7006D6ABE /* main.m */,
+				70D66CB219C7B3B7006D6ABE /* EtchASketchSimulator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70D66CC919C7B3B7006D6ABE /* EtchASketchSimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				70D66CCF19C7B3B7006D6ABE /* EtchASketchSimulatorTests.m */,
+				70D66CCA19C7B3B7006D6ABE /* Supporting Files */,
+			);
+			path = EtchASketchSimulatorTests;
+			sourceTree = "<group>";
+		};
+		70D66CCA19C7B3B7006D6ABE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70D66CCB19C7B3B7006D6ABE /* EtchASketchSimulatorTests-Info.plist */,
+				70D66CCC19C7B3B7006D6ABE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70D66CA019C7B3B7006D6ABE /* EtchASketchSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70D66CD319C7B3B7006D6ABE /* Build configuration list for PBXNativeTarget "EtchASketchSimulator" */;
+			buildPhases = (
+				70D66C9D19C7B3B7006D6ABE /* Sources */,
+				70D66C9E19C7B3B7006D6ABE /* Frameworks */,
+				70D66C9F19C7B3B7006D6ABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EtchASketchSimulator;
+			productName = EtchASketchSimulator;
+			productReference = 70D66CA119C7B3B7006D6ABE /* EtchASketchSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70D66CC119C7B3B7006D6ABE /* EtchASketchSimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70D66CD619C7B3B7006D6ABE /* Build configuration list for PBXNativeTarget "EtchASketchSimulatorTests" */;
+			buildPhases = (
+				70D66CBE19C7B3B7006D6ABE /* Sources */,
+				70D66CBF19C7B3B7006D6ABE /* Frameworks */,
+				70D66CC019C7B3B7006D6ABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70D66CC819C7B3B7006D6ABE /* PBXTargetDependency */,
+			);
+			name = EtchASketchSimulatorTests;
+			productName = EtchASketchSimulatorTests;
+			productReference = 70D66CC219C7B3B7006D6ABE /* EtchASketchSimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70D66C9919C7B3B7006D6ABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BCC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = edu.illinois.bchapman;
+				TargetAttributes = {
+					70D66CC119C7B3B7006D6ABE = {
+						TestTargetID = 70D66CA019C7B3B7006D6ABE;
+					};
+				};
+			};
+			buildConfigurationList = 70D66C9C19C7B3B7006D6ABE /* Build configuration list for PBXProject "EtchASketchSimulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70D66C9819C7B3B7006D6ABE;
+			productRefGroup = 70D66CA219C7B3B7006D6ABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70D66CA019C7B3B7006D6ABE /* EtchASketchSimulator */,
+				70D66CC119C7B3B7006D6ABE /* EtchASketchSimulatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70D66C9F19C7B3B7006D6ABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				704D4FB719C7BD1600C80B75 /* mona_lisa.pgm in Resources */,
+				70D66CE219C7B4FC006D6ABE /* dogtest.pgm in Resources */,
+				70D66CBD19C7B3B7006D6ABE /* Images.xcassets in Resources */,
+				70D66CAF19C7B3B7006D6ABE /* InfoPlist.strings in Resources */,
+				704D4FB919C7BDB900C80B75 /* lena.pgm in Resources */,
+				70D66CB819C7B3B7006D6ABE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D66CC019C7B3B7006D6ABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D66CCE19C7B3B7006D6ABE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70D66C9D19C7B3B7006D6ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D66CB119C7B3B7006D6ABE /* main.m in Sources */,
+				70D66CBB19C7B3B7006D6ABE /* BCCViewController.m in Sources */,
+				70D66CDF19C7B3E2006D6ABE /* fast-edge.c in Sources */,
+				70D66CB519C7B3B7006D6ABE /* BCCAppDelegate.m in Sources */,
+				70D66CE019C7B3E2006D6ABE /* imageio.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D66CBE19C7B3B7006D6ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D66CD019C7B3B7006D6ABE /* EtchASketchSimulatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70D66CC819C7B3B7006D6ABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70D66CA019C7B3B7006D6ABE /* EtchASketchSimulator */;
+			targetProxy = 70D66CC719C7B3B7006D6ABE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70D66CAD19C7B3B7006D6ABE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70D66CAE19C7B3B7006D6ABE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		70D66CB619C7B3B7006D6ABE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70D66CB719C7B3B7006D6ABE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70D66CCC19C7B3B7006D6ABE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70D66CCD19C7B3B7006D6ABE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70D66CD119C7B3B7006D6ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		70D66CD219C7B3B7006D6ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70D66CD419C7B3B7006D6ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EtchASketchSimulator/EtchASketchSimulator-Prefix.pch";
+				INFOPLIST_FILE = "EtchASketchSimulator/EtchASketchSimulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		70D66CD519C7B3B7006D6ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EtchASketchSimulator/EtchASketchSimulator-Prefix.pch";
+				INFOPLIST_FILE = "EtchASketchSimulator/EtchASketchSimulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		70D66CD719C7B3B7006D6ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EtchASketchSimulator.app/EtchASketchSimulator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EtchASketchSimulator/EtchASketchSimulator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EtchASketchSimulatorTests/EtchASketchSimulatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		70D66CD819C7B3B7006D6ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EtchASketchSimulator.app/EtchASketchSimulator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EtchASketchSimulator/EtchASketchSimulator-Prefix.pch";
+				INFOPLIST_FILE = "EtchASketchSimulatorTests/EtchASketchSimulatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70D66C9C19C7B3B7006D6ABE /* Build configuration list for PBXProject "EtchASketchSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D66CD119C7B3B7006D6ABE /* Debug */,
+				70D66CD219C7B3B7006D6ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70D66CD319C7B3B7006D6ABE /* Build configuration list for PBXNativeTarget "EtchASketchSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D66CD419C7B3B7006D6ABE /* Debug */,
+				70D66CD519C7B3B7006D6ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70D66CD619C7B3B7006D6ABE /* Build configuration list for PBXNativeTarget "EtchASketchSimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70D66CD719C7B3B7006D6ABE /* Debug */,
+				70D66CD819C7B3B7006D6ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70D66C9919C7B3B7006D6ABE /* Project object */;
+}
