@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		704D4FB719C7BD1600C80B75 /* mona_lisa.pgm in Resources */ = {isa = PBXBuildFile; fileRef = 704D4FB619C7BD1600C80B75 /* mona_lisa.pgm */; };
-		704D4FB919C7BDB900C80B75 /* lena.pgm in Resources */ = {isa = PBXBuildFile; fileRef = 704D4FB819C7BDB900C80B75 /* lena.pgm */; };
+		70591C961A9936010055955F /* ImageWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 70591C951A9936010055955F /* ImageWrapper.mm */; };
+		70591C991A993FA20055955F /* Image.mm in Sources */ = {isa = PBXBuildFile; fileRef = 70591C981A993FA20055955F /* Image.mm */; };
+		707EF2C11A9824D800FF627B /* etch-a-sketch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 707EF2C01A9824D800FF627B /* etch-a-sketch.jpg */; };
+		707EF2C81A9827BA00FF627B /* BCCEtchASketchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707EF2C71A9827BA00FF627B /* BCCEtchASketchViewController.swift */; };
+		707EF2CA1A98310F00FF627B /* BCCEtchASketchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707EF2C91A98310F00FF627B /* BCCEtchASketchView.swift */; };
+		707EF2CD1A98584100FF627B /* left-wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 707EF2CB1A98584100FF627B /* left-wheel.png */; };
+		707EF2CE1A98584100FF627B /* right-wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 707EF2CC1A98584100FF627B /* right-wheel.png */; };
+		708C7F631A98668C00C31EB1 /* left-wheel-nodash.png in Resources */ = {isa = PBXBuildFile; fileRef = 708C7F611A98668C00C31EB1 /* left-wheel-nodash.png */; };
+		708C7F641A98668C00C31EB1 /* right-wheel-nodash.png in Resources */ = {isa = PBXBuildFile; fileRef = 708C7F621A98668C00C31EB1 /* right-wheel-nodash.png */; };
+		70B6DB961A9981DE00DB76B4 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B6DB951A9981DE00DB76B4 /* Node.swift */; };
+		70B6DB981A99904000DB76B4 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B6DB971A99904000DB76B4 /* Graph.swift */; };
+		70B6DB9A1A9ACFF000DB76B4 /* PlotPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B6DB991A9ACFF000DB76B4 /* PlotPointsView.swift */; };
 		70D66CA519C7B3B7006D6ABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D66CA419C7B3B7006D6ABE /* Foundation.framework */; };
 		70D66CA719C7B3B7006D6ABE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D66CA619C7B3B7006D6ABE /* CoreGraphics.framework */; };
 		70D66CA919C7B3B7006D6ABE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D66CA819C7B3B7006D6ABE /* UIKit.framework */; };
@@ -23,9 +33,6 @@
 		70D66CC619C7B3B7006D6ABE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D66CA819C7B3B7006D6ABE /* UIKit.framework */; };
 		70D66CCE19C7B3B7006D6ABE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70D66CCC19C7B3B7006D6ABE /* InfoPlist.strings */; };
 		70D66CD019C7B3B7006D6ABE /* EtchASketchSimulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D66CCF19C7B3B7006D6ABE /* EtchASketchSimulatorTests.m */; };
-		70D66CDF19C7B3E2006D6ABE /* fast-edge.c in Sources */ = {isa = PBXBuildFile; fileRef = 70D66CDA19C7B3E2006D6ABE /* fast-edge.c */; };
-		70D66CE019C7B3E2006D6ABE /* imageio.c in Sources */ = {isa = PBXBuildFile; fileRef = 70D66CDC19C7B3E2006D6ABE /* imageio.c */; };
-		70D66CE219C7B4FC006D6ABE /* dogtest.pgm in Resources */ = {isa = PBXBuildFile; fileRef = 70D66CE119C7B4FC006D6ABE /* dogtest.pgm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +46,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		704D4FB619C7BD1600C80B75 /* mona_lisa.pgm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mona_lisa.pgm; sourceTree = "<group>"; };
-		704D4FB819C7BDB900C80B75 /* lena.pgm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lena.pgm; sourceTree = "<group>"; };
+		70591C941A9936010055955F /* ImageWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageWrapper.h; sourceTree = "<group>"; };
+		70591C951A9936010055955F /* ImageWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageWrapper.mm; sourceTree = "<group>"; };
+		70591C971A993FA20055955F /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		70591C981A993FA20055955F /* Image.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Image.mm; sourceTree = "<group>"; };
+		707EF2C01A9824D800FF627B /* etch-a-sketch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "etch-a-sketch.jpg"; sourceTree = "<group>"; };
+		707EF2C61A9827BA00FF627B /* EtchASketchSimulator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EtchASketchSimulator-Bridging-Header.h"; sourceTree = "<group>"; };
+		707EF2C71A9827BA00FF627B /* BCCEtchASketchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCCEtchASketchViewController.swift; sourceTree = "<group>"; };
+		707EF2C91A98310F00FF627B /* BCCEtchASketchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCCEtchASketchView.swift; sourceTree = "<group>"; };
+		707EF2CB1A98584100FF627B /* left-wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-wheel.png"; sourceTree = "<group>"; };
+		707EF2CC1A98584100FF627B /* right-wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-wheel.png"; sourceTree = "<group>"; };
+		708C7F611A98668C00C31EB1 /* left-wheel-nodash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-wheel-nodash.png"; sourceTree = "<group>"; };
+		708C7F621A98668C00C31EB1 /* right-wheel-nodash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-wheel-nodash.png"; sourceTree = "<group>"; };
+		70B6DB951A9981DE00DB76B4 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Node.swift; path = ../Node.swift; sourceTree = "<group>"; };
+		70B6DB971A99904000DB76B4 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		70B6DB991A9ACFF000DB76B4 /* PlotPointsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotPointsView.swift; sourceTree = "<group>"; };
 		70D66CA119C7B3B7006D6ABE /* EtchASketchSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtchASketchSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D66CA419C7B3B7006D6ABE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		70D66CA619C7B3B7006D6ABE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,11 +80,6 @@
 		70D66CCB19C7B3B7006D6ABE /* EtchASketchSimulatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EtchASketchSimulatorTests-Info.plist"; sourceTree = "<group>"; };
 		70D66CCD19C7B3B7006D6ABE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		70D66CCF19C7B3B7006D6ABE /* EtchASketchSimulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EtchASketchSimulatorTests.m; sourceTree = "<group>"; };
-		70D66CDA19C7B3E2006D6ABE /* fast-edge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "fast-edge.c"; sourceTree = "<group>"; };
-		70D66CDB19C7B3E2006D6ABE /* fast-edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "fast-edge.h"; sourceTree = "<group>"; };
-		70D66CDC19C7B3E2006D6ABE /* imageio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = imageio.c; sourceTree = "<group>"; };
-		70D66CDD19C7B3E2006D6ABE /* imageio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageio.h; sourceTree = "<group>"; };
-		70D66CE119C7B4FC006D6ABE /* dogtest.pgm */ = {isa = PBXFileReference; lastKnownFileType = file; path = dogtest.pgm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +106,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70B6DB941A995AEC00DB76B4 /* ImageClasses */ = {
+			isa = PBXGroup;
+			children = (
+				70591C941A9936010055955F /* ImageWrapper.h */,
+				70591C951A9936010055955F /* ImageWrapper.mm */,
+				70591C971A993FA20055955F /* Image.h */,
+				70591C981A993FA20055955F /* Image.mm */,
+			);
+			name = ImageClasses;
+			sourceTree = "<group>";
+		};
 		70D66C9819C7B3B7006D6ABE = {
 			isa = PBXGroup;
 			children = (
@@ -124,20 +150,25 @@
 		70D66CAA19C7B3B7006D6ABE /* EtchASketchSimulator */ = {
 			isa = PBXGroup;
 			children = (
-				704D4FB819C7BDB900C80B75 /* lena.pgm */,
-				704D4FB619C7BD1600C80B75 /* mona_lisa.pgm */,
-				70D66CE119C7B4FC006D6ABE /* dogtest.pgm */,
-				70D66CDA19C7B3E2006D6ABE /* fast-edge.c */,
-				70D66CDB19C7B3E2006D6ABE /* fast-edge.h */,
-				70D66CDC19C7B3E2006D6ABE /* imageio.c */,
-				70D66CDD19C7B3E2006D6ABE /* imageio.h */,
+				70B6DB941A995AEC00DB76B4 /* ImageClasses */,
+				70B6DB951A9981DE00DB76B4 /* Node.swift */,
+				708C7F611A98668C00C31EB1 /* left-wheel-nodash.png */,
+				708C7F621A98668C00C31EB1 /* right-wheel-nodash.png */,
+				707EF2CB1A98584100FF627B /* left-wheel.png */,
+				707EF2CC1A98584100FF627B /* right-wheel.png */,
+				707EF2C01A9824D800FF627B /* etch-a-sketch.jpg */,
 				70D66CB319C7B3B7006D6ABE /* BCCAppDelegate.h */,
 				70D66CB419C7B3B7006D6ABE /* BCCAppDelegate.m */,
 				70D66CB619C7B3B7006D6ABE /* Main.storyboard */,
+				707EF2C71A9827BA00FF627B /* BCCEtchASketchViewController.swift */,
+				70B6DB971A99904000DB76B4 /* Graph.swift */,
+				707EF2C91A98310F00FF627B /* BCCEtchASketchView.swift */,
+				70B6DB991A9ACFF000DB76B4 /* PlotPointsView.swift */,
 				70D66CB919C7B3B7006D6ABE /* BCCViewController.h */,
 				70D66CBA19C7B3B7006D6ABE /* BCCViewController.m */,
 				70D66CBC19C7B3B7006D6ABE /* Images.xcassets */,
 				70D66CAB19C7B3B7006D6ABE /* Supporting Files */,
+				707EF2C61A9827BA00FF627B /* EtchASketchSimulator-Bridging-Header.h */,
 			);
 			path = EtchASketchSimulator;
 			sourceTree = "<group>";
@@ -248,12 +279,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				704D4FB719C7BD1600C80B75 /* mona_lisa.pgm in Resources */,
-				70D66CE219C7B4FC006D6ABE /* dogtest.pgm in Resources */,
+				707EF2C11A9824D800FF627B /* etch-a-sketch.jpg in Resources */,
+				707EF2CE1A98584100FF627B /* right-wheel.png in Resources */,
 				70D66CBD19C7B3B7006D6ABE /* Images.xcassets in Resources */,
 				70D66CAF19C7B3B7006D6ABE /* InfoPlist.strings in Resources */,
-				704D4FB919C7BDB900C80B75 /* lena.pgm in Resources */,
+				707EF2CD1A98584100FF627B /* left-wheel.png in Resources */,
 				70D66CB819C7B3B7006D6ABE /* Main.storyboard in Resources */,
+				708C7F631A98668C00C31EB1 /* left-wheel-nodash.png in Resources */,
+				708C7F641A98668C00C31EB1 /* right-wheel-nodash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +305,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70B6DB981A99904000DB76B4 /* Graph.swift in Sources */,
 				70D66CB119C7B3B7006D6ABE /* main.m in Sources */,
+				70B6DB9A1A9ACFF000DB76B4 /* PlotPointsView.swift in Sources */,
+				707EF2C81A9827BA00FF627B /* BCCEtchASketchViewController.swift in Sources */,
 				70D66CBB19C7B3B7006D6ABE /* BCCViewController.m in Sources */,
-				70D66CDF19C7B3E2006D6ABE /* fast-edge.c in Sources */,
+				70B6DB961A9981DE00DB76B4 /* Node.swift in Sources */,
 				70D66CB519C7B3B7006D6ABE /* BCCAppDelegate.m in Sources */,
-				70D66CE019C7B3E2006D6ABE /* imageio.c in Sources */,
+				70591C991A993FA20055955F /* Image.mm in Sources */,
+				70591C961A9936010055955F /* ImageWrapper.mm in Sources */,
+				707EF2CA1A98310F00FF627B /* BCCEtchASketchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +441,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EtchASketchSimulator/EtchASketchSimulator-Prefix.pch";
 				INFOPLIST_FILE = "EtchASketchSimulator/EtchASketchSimulator-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-x",
+					"objective-c++",
+					"$(OTHER_CFLAGS)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EtchASketchSimulator/EtchASketchSimulator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -416,10 +466,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EtchASketchSimulator/EtchASketchSimulator-Prefix.pch";
 				INFOPLIST_FILE = "EtchASketchSimulator/EtchASketchSimulator-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-x",
+					"objective-c++",
+					"$(OTHER_CFLAGS)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EtchASketchSimulator/EtchASketchSimulator-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
